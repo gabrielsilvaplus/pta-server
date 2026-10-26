@@ -1,0 +1,26 @@
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+/.aws/
+/.agents/
+/.codex/
+
+# Editor e arquivos temporários
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*~
+
+# Cópias baixadas pelo cliente. Os originais em files/ continuam no Git.
+/dummyfile*
+/pta-server/dummyfile*
